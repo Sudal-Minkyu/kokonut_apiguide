@@ -65,7 +65,7 @@
     // })
 
     const version = import.meta.env.VITE_API_VERSION;
-    console.log("현재 버전 version : "+version);
+    // console.log("현재 버전 version : "+version);
 </script>
 
 <!-- 헤더 -->
@@ -104,7 +104,7 @@
         <div class="subNav">
             <ul>
                 <li class="onedepth">홈 위젯 API</li>
-                <li><a use:link href="/apiCount">금일 API 호출 수</a></li>
+                <li><a use:link href="/apiCount">API 호출 수</a></li>
                 <li><a use:link href="/endeCount">암복호화 수 호출</a></li>
                 <li><a use:link href="/">내부&외부 제공건 수 호출</a></li>
                 <li><a use:link href="/">발송 예약 수 호출</a></li>

@@ -34,14 +34,14 @@
 .marB16{margin-bottom:1.6rem;}
 .marB20{margin-bottom:2rem;}
 .marB30{margin-bottom:3rem;}
-.noneMarB{margin-bottom:0rem!important;}
+.noneMarB{margin-bottom:0!important;}
 
 .marT60{margin-top:6rem;}
 
 /*--------------------------------------------------------------
 # padding 클래스
 --------------------------------------------------------------*/
-.nonePad{padding:0rem!important;}
+.nonePad{padding:0!important;}
 
 /*--------------------------------------------------------------
 # border 클래스
@@ -49,8 +49,8 @@
 .borB:after{
 	content:'';
 	position:absolute;
-	left:0rem;
-	bottom:0rem;
+	left:0;
+	bottom:0;
 	width:100%;
 	height:1px;
 	background:#E2E5EA;
@@ -59,8 +59,8 @@
 .borL:after{
 	content:'';
 	position:absolute;
-	left:0rem;
-	top:0rem;
+	left:0;
+	top:0;
 	width:1px;
 	height:100%;
 	background:#E2E5EA;

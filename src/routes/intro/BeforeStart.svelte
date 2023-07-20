@@ -1,5 +1,4 @@
-<script>
-</script>
+
 <div>
     <div class="apiContentBox">
         <div class="apicontTitleVer3">

@@ -1,6 +1,5 @@
 <script>
-    let start = "{"
-    let end = "}"
+    import {endpoint, start, end} from "../../lib/store.js"
 </script>
 <div>
     <div class="apiContentBox">
@@ -51,12 +50,12 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p>
-                        {start}<br>
+                        {$start}<br>
                             <span class="jsonSpan" style="color:#222">"response": IDX(계정의 고유번호 IDX)</span><br>
                             <span class="jsonSpan" style="color:#222">"status": 200,</span><br>
                             <span class="jsonSpan" style="color:#222">"timestamp": "현재시간",</span><br>
                             <span class="jsonSpan" style="color:#222">"message": "SUCCESS</span><br>
-                        {end}
+                        {$end}
                     </p>
                 </div>
             </div>
@@ -68,13 +67,13 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p>
-                        {start}<br>
+                        {$start}<br>
                         <span class="jsonSpan" style="color:#222">"status": 500</span><br>
                         <span class="jsonSpan" style="color:#222">"timestamp": "현재시간",</span><br>
                         <span class="jsonSpan" style="color:#222">"message": "FAIL"</span><br>
                         <span class="jsonSpan" style="color:#222">"err_code": "KOKONUT_01"</span><br>
                         <span class="jsonSpan" style="color:#222">"err_msg": "아이디를 입력해주세요."</span><br>
-                        {end}
+                        {$end}
                     </p>
                 </div>
             </div>
@@ -86,13 +85,13 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p>
-                        {start}<br>
+                        {$start}<br>
                         <span class="jsonSpan" style="color:#222">"status": 500</span><br>
                         <span class="jsonSpan" style="color:#222">"timestamp": "현재시간",</span><br>
                         <span class="jsonSpan" style="color:#222">"message": "FAIL"</span><br>
                         <span class="jsonSpan" style="color:#222">"err_code": "KOKONUT_02"</span><br>
                         <span class="jsonSpan" style="color:#222">"err_msg": "존재하지 않은 아이디 입니다."</span><br>
-                        {end}
+                        {$end}
                     </p>
                 </div>
             </div>
@@ -104,13 +103,13 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p>
-                        {start}<br>
+                        {$start}<br>
                         <span class="jsonSpan" style="color:#222">"status": 500</span><br>
                         <span class="jsonSpan" style="color:#222">"timestamp": "현재시간",</span><br>
                         <span class="jsonSpan" style="color:#222">"message": "FAIL"</span><br>
                         <span class="jsonSpan" style="color:#222">"err_code": "KOKONUT_03"</span><br>
                         <span class="jsonSpan" style="color:#222">"err_msg": "입력한 비밀번호가 맞지 않습니다."</span><br>
-                        {end}
+                        {$end}
                     </p>
                 </div>
             </div>

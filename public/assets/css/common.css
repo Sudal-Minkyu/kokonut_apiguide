@@ -3,9 +3,9 @@
 --------------------------------------------------------------*/
 #header{
 	position:fixed;
-	top:0rem;
+	top:0;
 	width:100%;
-	left:0rem;
+	left:0;
 	z-index:20;
 }
 .topHeadInner{
@@ -17,8 +17,8 @@
 .topHeadInner:after{
 	content:'';
 	position:absolute;
-	left:0rem;
-	bottom:0rem;
+	left:0;
+	bottom:0;
 	width:100%;
 	height:1px;
 	background:#eee;
@@ -67,19 +67,19 @@
 
 .navMenu {
 	position:fixed;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
     height: 100%;
     width: 30rem;
     background: #F4F5F7;
     z-index: 10;
-	padding:6.4rem 0rem 0rem 0rem;
+	padding:6.4rem 0 0 0;
 }
 .navMenu:after{
 	content:'';
 	position:absolute;
-	right:0rem;
-	top:0rem;
+	right:0;
+	top:0;
 	width:1px;
 	height:100%;
 	background:#E2E5EA;
@@ -90,7 +90,7 @@
 	height:100%;
 	overflow: auto;
 }
-.navMenuInner::-webkit-scrollbar {width: 0px; height: 0px; }
+.navMenuInner::-webkit-scrollbar {width: 0; height: 0; }
 .navMenuInner::-webkit-scrollbar-track-piece {background-color: inherit;}
 .navMenuInner::-webkit-scrollbar-thumb {background-color: inherit;}
 
@@ -101,7 +101,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 2.16rem;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #888;
     padding: 2.6rem 3.2rem 2.6rem 3.2rem;
@@ -126,7 +126,7 @@
 	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#bbb;
 }
@@ -135,7 +135,7 @@
 	width:1.8rem;
 	height:1.8rem;
 	position:absolute;
-	left:0rem;
+	left:0;
 	top:0.2rem;
 	background-image: url(../img/nsBox_searchicon.png);
     background-size: 1.6rem;
@@ -149,7 +149,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     line-height: 2.16rem;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #444;
 }
@@ -160,8 +160,8 @@
 .navSeaBox:after{
 	content:'';
 	position:absolute;
-	left:0rem;
-	bottom:0rem;
+	left:0;
+	bottom:0;
 	width:100%;
 	height:1px;
 	background:#E2E5EA;
@@ -189,14 +189,14 @@
 	font-size: 1.8rem;
 	font-weight: 600;
 	line-height: 2.16rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#444;
 	padding-left:3rem;
 }
 .navSet a img {
     position: absolute;
-    left: 0rem;
+    left: 0;
     top: 0.1rem;
     height: 2rem;
 }
@@ -232,7 +232,7 @@
     font-size: 2.4rem;
     font-weight: 500;
     line-height: 4rem;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #1f1f1f;
 }
@@ -247,8 +247,8 @@
 	width:4rem;
 	height:4rem;
 	position:absolute;
-	left:0rem;
-	top:0rem;
+	left:0;
+	top:0;
 	background-image: url(../img/before_arrow.png);
     background-size: 4rem;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@
 	font-size: 4.5rem;
 	font-weight: 500;
 	line-height: 5.4rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 }
 .apicontTitle h1 span{
@@ -289,7 +289,7 @@
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 3.6rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#1F1F1F;
 	border-bottom:1px solid #eee;
@@ -310,7 +310,7 @@
 	font-size: 3rem;
 	font-weight: 700;
 	line-height: 3.6rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#1F1F1F;
 	border-bottom:1px solid #eee;
@@ -327,7 +327,7 @@
 	font-size: 1.8rem;
 	font-weight: 500;
 	line-height: 3.2rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#3E3E3E;
 }
@@ -340,7 +340,7 @@
 .cationBox:before{
 	content:'';
 	position:absolute;
-	left:0rem;
+	left:0;
 	top:0.7rem;
 	width:1.8rem;
 	height:1.8rem;
@@ -355,7 +355,7 @@
 	font-size: 2.2rem;
 	font-weight: 600;
 	line-height: 3.2rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#222;
 }
@@ -427,7 +427,7 @@
 # api 가이드 시작하기
 --------------------------------------------------------------*/
 .stgr-box {
-    padding: 0rem 6rem 0rem 6rem;
+    padding: 0 6rem 0 6rem;
     width: 100%;
     height: 20rem;
     background: #00BA83;
@@ -436,7 +436,7 @@
     font-size: 4.5rem;
     font-weight: 600;
     line-height: 5.4rem;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #FFFFFF;
     display: flex;
@@ -446,7 +446,7 @@
 .stgrContentBox{
 	width:100%;
 	position:relative;
-	padding:4rem 6rem 0rem 6rem;
+	padding:4rem 6rem 0 6rem;
 }
 /*--------------------------------------------------------------
 # api 가이드 발링키
@@ -472,7 +472,7 @@
     font-size: 4.5rem;
     font-weight: 700;
     line-height: 5.4rem;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #1F1F1F;
     align-items: center;
@@ -489,21 +489,20 @@
 }
 .vringContent h1 p a{
 	position:absolute;
-	left:0rem;
-	top:0rem;
+	left:0;
+	top:0;
 	width:100%;
 	height:100%;
 	font-family: Pretendard, sans-serif;
 	font-size: 1.7rem;
 	font-weight: 600;
 	line-height: 4.2rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: center;
 	color:#fff;
 }
 
 .pjdro_Box {width: 100%;position: relative;overflow: hidden;
-border-radius: 0.8rem;
 border-radius: 0.8rem;
 }
 .pjdro_Box:after {
@@ -511,24 +510,10 @@ border-radius: 0.8rem;
     top: 0;
     left: 0;
     border-radius: 0.8rem;
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-top-color: rgba(0, 0, 0, 0.06);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgba(0, 0, 0, 0.06);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgba(0, 0, 0, 0.06);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgba(0, 0, 0, 0.06);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	border-image-source: initial;
     border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
+	border-image-repeat: initial;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -536,11 +521,11 @@ border-radius: 0.8rem;
     content: "";
     z-index: 60;
 }
-.pjdro_Box:first-child{margin:0px 0px 14px 0px;}
+.pjdro_Box:first-child{margin:0 0 14px 0;}
 
 .pjandion-menu {text-align: left;width: 100%;}
 .pjandion-menu li{z-index:40;list-style:none;}
-.pjandion-menu li.open_faq{box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.1);}
+.pjandion-menu li.open_faq{box-shadow: 0 3px 4px rgba(184, 184, 184, 0.1);}
 /* .pjandion-menu li.open_faq .pjdropName h2{color:#00BA83;} */
 .pjandion-menu li.open_faq .pjdropName .fa-chevron-down {transform: rotate(180deg);opacity: 1;}
 .pjandion-menu li.open_faq .pjdropName {border-bottom: none;}
@@ -550,14 +535,14 @@ border-radius: 0.8rem;
 	background: #F4F5F7;
 	width:100%;
 	padding:1.4rem 4.8rem 1.4rem 2rem;
-	cursor: pointer;display: block;position: relative;z-index: 60;
+	display: block;position: relative;z-index: 60;
 }
 .pjdropName h2{
 	font-family: Pretendard, sans-serif;
 	font-size: 1.7rem;
 	font-weight: 500;
 	line-height: 2.6rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 
 	
@@ -585,7 +570,7 @@ border-radius: 0.8rem;
 .projItems li {list-style:none;}
 .projItems a {display: inline-block;transition: all 0.4s ease-out;cursor: pointer;}
 .projItems a:hover {background-color: #3b6bb8;color: #fff;}
-.open_proj_box{border-top: none!important;position: relative;width: 100%;padding: 0px 0px 0px 0px;}
+.open_proj_box{border-top: none!important;position: relative;width: 100%;padding: 0 0 0 0;}
 
 .dropNortext{display:block;}
 .dropNortext h3{
@@ -593,7 +578,7 @@ border-radius: 0.8rem;
 	font-size: 1.5rem;
 	font-weight: 500;
 	line-height: 2.8rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#3E3E3E;
 }
@@ -609,8 +594,8 @@ border-radius: 0.8rem;
 .dropcont:after{
 	content:'';
 	position:absolute;
-	left:0rem;
-	bottom:0rem;
+	left:0;
+	bottom:0;
 	width:100%;
 	height:1px;
 	background:#EEEEEE;
@@ -623,7 +608,7 @@ border-radius: 0.8rem;
 	font-size: 1.4rem;
 	font-weight: 500;
 	line-height: 1.6rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#999;
 }
@@ -633,7 +618,7 @@ border-radius: 0.8rem;
 	margin-top:0.4rem;
 }
 .drcont:nth-child(1){
-	margin-top:0rem;
+	margin-top:0;
 }
 .drcont p{
 	display:inline-block;
@@ -641,10 +626,22 @@ border-radius: 0.8rem;
 	font-size: 1.6rem;
 	font-weight: 500;
 	line-height: 2.2rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#222;
 	margin-right:0.6rem;
+}
+.drcont h4{
+	position:relative;
+	display:inline-block;
+	font-family: Pretendard, sans-serif;
+	font-size: 1.4rem;
+	font-weight: 500;
+	line-height: 2.2rem;
+	/*letter-spacing: 0;*/
+	text-align: left;
+	color:#00BA83;
+	margin-right:2.4rem;
 }
 .drcont span{
 	position:relative;
@@ -653,7 +650,7 @@ border-radius: 0.8rem;
 	font-size: 1.4rem;
 	font-weight: 500;
 	line-height: 2.2rem;
-	letter-spacing: 0em;
+	/*letter-spacing: 0;*/
 	text-align: left;
 	color:#00BA83;
 	margin-right:2.4rem;
@@ -674,9 +671,8 @@ border-radius: 0.8rem;
 	font-size: 1.4rem;
 	font-weight: 500;
 	line-height: 2.2rem;
-	letter-spacing: 0em;
 	text-align: left;
-	color:#999999;
+	color: #222;
 }
 .dropcont h3{
 	display:block;
@@ -685,7 +681,6 @@ border-radius: 0.8rem;
 	font-size: 1.5rem;
 	font-weight: 500;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
 	text-align: left;
 	color:#666;
 }
@@ -700,7 +695,7 @@ border-radius: 0.8rem;
 	display:inline-block;
 	background: #FFFFFF;
 	border: 1px solid #EEEEEE;
-	box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.1);
+	box-shadow: 0 3px 4px rgba(184, 184, 184, 0.1);
 	border-radius: 0.4rem;
 	padding:1rem 1.3rem 1rem 2.9rem;
 }
@@ -722,7 +717,6 @@ border-radius: 0.8rem;
 	font-size: 1.4rem;
 	font-weight: 500;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
 	text-align: left;
 	color:#666;
 }
@@ -735,7 +729,7 @@ border-radius: 0.8rem;
 	width:100%;
 	position:relative;
 	background: #FFFFFF;
-	box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.1);
+	box-shadow: 0 3px 4px rgba(184, 184, 184, 0.1);
 	border-radius: 0.8rem;
 }
 .codeContentBox:after {
@@ -743,24 +737,10 @@ border-radius: 0.8rem;
     top: 0;
     left: 0;
     border-radius: 0.8rem;
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-top-color: rgba(0, 0, 0, 0.06);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgba(0, 0, 0, 0.06);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgba(0, 0, 0, 0.06);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgba(0, 0, 0, 0.06);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	border-image-source: initial;
     border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
+	border-image-repeat: initial;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -780,7 +760,7 @@ border-radius: 0.8rem;
 	font-size: 1.7rem;
 	font-weight: 500;
 	line-height: 2.6rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#222;
 }
@@ -805,7 +785,7 @@ border-radius: 0.8rem;
 	font-size: 1.6rem;
 	font-weight: 600;
 	line-height: 2.2rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	margin-right:0.6rem;
 }
@@ -814,7 +794,7 @@ border-radius: 0.8rem;
 	width:100%;
 	position:relative;
 	background: #444948;
-	box-shadow: 0px 3px 4px rgba(184, 184, 184, 0.1);
+	box-shadow: 0 3px 4px rgba(184, 184, 184, 0.1);
 	border-radius: 0.8rem;
 }
 .codeContentBox_Dark:after {
@@ -822,24 +802,10 @@ border-radius: 0.8rem;
     top: 0;
     left: 0;
     border-radius: 0.8rem;
-    border: 1px solid rgba(0, 0, 0, 0.06);
-    border-top-color: rgba(0, 0, 0, 0.06);
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-right-color: rgba(0, 0, 0, 0.06);
-    border-right-style: solid;
-    border-right-width: 1px;
-    border-bottom-color: rgba(0, 0, 0, 0.06);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: rgba(0, 0, 0, 0.06);
-    border-left-style: solid;
-    border-left-width: 1px;
-    border-image-source: initial;
+	border: 1px solid rgba(0, 0, 0, 0.06);
+	border-image-source: initial;
     border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
+	border-image-repeat: initial;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
@@ -859,7 +825,7 @@ border-radius: 0.8rem;
 	font-size: 1.7rem;
 	font-weight: 500;
 	line-height: 2.6rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color: rgba(255, 255, 255, 0.7);
 }
@@ -879,7 +845,7 @@ border-radius: 0.8rem;
 	display: none;
 	/* display:block; */
 	text-align:center;
-	position: fixed;top: 0px;left: 0px;background: rgba(0,0,0,0.4);z-index: 1000;
+	position: fixed;top: 0;left: 0;background: rgba(0,0,0,0.4);z-index: 1000;
 }
 .docu_popup_inner {
 	width: 70rem;
@@ -906,7 +872,7 @@ border-radius: 0.8rem;
     font-size: 3.4rem;
     font-weight: 700;
     line-height: 4.4rem;
-    letter-spacing: 0em;
+    letter-spacing: 0;
     text-align: left;
     color: #222;
 }
@@ -916,7 +882,7 @@ border-radius: 0.8rem;
     z-index: 1!important;
     width: 1.6rem;
     height: 1.6rem;
-    padding-top: 0px;
+    padding-top: 0;
     display: inline-block;
     position: absolute;
     top: 2.4rem;
@@ -953,7 +919,7 @@ border-radius: 0.8rem;
 	font-size: 1.8rem;
 	font-weight: 600;
 	line-height: 2.2rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#444;
 	margin-bottom:1.2rem;
@@ -963,12 +929,12 @@ border-radius: 0.8rem;
 	height:6rem;
 	background: #F4F5F7;
 	border-radius: 1rem;
-	padding:0rem 4rem 0rem 5rem;
+	padding:0 4rem 0 5rem;
 	width: 100%;
 	font-family: Pretendard, sans-serif;
 	font-size: 1.7rem;
 	font-weight: 500;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#666;
 	z-index:10;
@@ -995,7 +961,7 @@ border-radius: 0.8rem;
 	font-family: Pretendard, sans-serif;
 	font-size: 1.8rem;
 	font-weight: 400;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#bbb;
 }
@@ -1006,7 +972,7 @@ border-radius: 0.8rem;
 	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: center;
 	color:#222;
 }
@@ -1024,7 +990,7 @@ border-radius: 0.8rem;
 	font-size: 1.6rem;
 	font-weight: 400;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#222;
 }
@@ -1033,7 +999,7 @@ border-radius: 0.8rem;
 	font-size: 1.6rem;
 	font-weight: 700;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#00C389;
 	margin-left:0.6rem;
@@ -1084,7 +1050,7 @@ border-radius: 0.8rem;
 	font-size: 1.8rem;
 	font-weight: 400;
 	line-height: 1.8rem;
-	letter-spacing: 0em;
+	letter-spacing: 0;
 	text-align: left;
 	color:#666;
 }
@@ -1094,6 +1060,17 @@ border-radius: 0.8rem;
 /* ==== 민규가 사용할라고 추가한 CSS ==== */
 .jsonSpan {
 	padding-left: 3rem;
+	color:#222
+}
+.jsonSpan_01 {
+	color:#222
+}
+.jsonSpan_02 {
+	padding-left: 3rem;
+	color:#222
+}
+.jsonSpan_03 {
+	padding-left: 6rem;
 	color:#222
 }
 

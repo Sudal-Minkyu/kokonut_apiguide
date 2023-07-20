@@ -27,12 +27,12 @@
                                     <div class="drcont">
                                         <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/apiCount</h4>
                                     </div>
-<!--                                    <div class="drcont">-->
-<!--                                        <p>요청 파라미터</p><br/>-->
-<!--                                    </div>-->
-<!--                                    <div class="drcont">-->
-<!--                                        <p>type</p><span>선택</span> <b>String</b>-->
-<!--                                    </div>-->
+                                    <!--                                    <div class="drcont">-->
+                                    <!--                                        <p>요청 파라미터</p><br/>-->
+                                    <!--                                    </div>-->
+                                    <!--                                    <div class="drcont">-->
+                                    <!--                                        <p>type</p><span>선택</span> <b>String</b>-->
+                                    <!--                                    </div>-->
                                 </div>
                             </div>
                         </li>
