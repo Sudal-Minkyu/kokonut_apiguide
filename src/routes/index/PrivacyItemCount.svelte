@@ -1,14 +1,16 @@
 <script>
     import {endpoint, start, end} from "../../lib/store.js"
+
+    import CommonErrorCode from "../../components/CommonErrorCode.svelte";
 </script>
 <div>
     <div class="apiContentBox">
         <div class="apicontTitleVer2">
-            <h1>API 호출 수</h1>
+            <h1>개인정보 항목 수 호출</h1>
         </div>
         <div>
             <div class="apinorText marB20">
-                금일기준 0시부터 현재시간까지 코코넛 API를 호출한 수를 가져오는 API
+                현재까지 추가한 개인정보 테이블의 항목 수를 가져오는 API
             </div>
         </div>
         <div class="pjdro_Box marB20">
@@ -25,14 +27,8 @@
                                         <p>메서드 : </p> <h4>GET</h4>
                                     </div>
                                     <div class="drcont">
-                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/apiCount</h4>
+                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/privacyItemCount</h4>
                                     </div>
-<!--                                    <div class="drcont">-->
-<!--                                        <p>요청 파라미터</p><br/>-->
-<!--                                    </div>-->
-<!--                                    <div class="drcont">-->
-<!--                                        <p>type</p><span>선택</span> <b>String</b>-->
-<!--                                    </div>-->
                                 </div>
                             </div>
                         </li>
@@ -49,7 +45,7 @@
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X GET \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \ </p><br/>
-                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/apiCount"</p>
+                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/privacyItemCount"</p>
                 </div>
             </div>
         </div>
@@ -59,12 +55,17 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <span class="jsonSpan_01">{$start}</span><br>
-                    <span class="jsonSpan_02">"status": 200,</span><br>
-                    <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
-                    <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
-                    <span class="jsonSpan_02">"sendData": {$start}</span><br>
-                    <span class="jsonSpan_03">"count": 0</span><br>
-                    <span class="jsonSpan_02">{$end}</span><br>
+                        <span class="jsonSpan_02">"status": 200,</span><br>
+                        <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
+                        <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
+                            <span class="jsonSpan_02">"sendData": {$start}</span><br>
+                                <span class="jsonSpan_03">"privacyItemCount": {$start}</span><br>
+                                    <span class="jsonSpan_04">"totalAddCount": 0</span><br>
+                                    <span class="jsonSpan_04">"securityCount": 0</span><br>
+                                    <span class="jsonSpan_04">"uniqueCount": 0</span><br>
+                                    <span class="jsonSpan_04">"sensitiveCount": 0</span><br>
+                                <span class="jsonSpan_03">{$end}</span><br>
+                        <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>
                 </div>
             </div>
@@ -81,7 +82,16 @@
                             <div class="open_proj_box">
                                 <div class="dropcont">
                                     <div class="drcont">
-                                        <p>count</p><span>Integer</span> <b>건수</b>
+                                        <p>totalAddCount</p><span>Integer</span> <b>전체 항목 건수</b>
+                                    </div>
+                                    <div class="drcont">
+                                        <p>securityCount</p><span>Integer</span> <b>암호화 항목 건수</b>
+                                    </div>
+                                    <div class="drcont">
+                                        <p>uniqueCount</p><span>Integer</span> <b>고유식별정보 항목 건수</b>
+                                    </div>
+                                    <div class="drcont">
+                                        <p>sensitiveCount</p><span>Integer</span> <b>민감정보 항목 건수</b>
                                     </div>
                                 </div>
                             </div>
@@ -90,6 +100,8 @@
                 </li>
             </ul>
         </div>
+
+<!--        <CommonErrorCode />-->
 
     </div>
 </div>

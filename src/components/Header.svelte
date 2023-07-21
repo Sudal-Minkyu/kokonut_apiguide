@@ -106,14 +106,13 @@
                 <li class="onedepth">홈 위젯 API</li>
                 <li><a use:link href="/apiCount">API 호출 수</a></li>
                 <li><a use:link href="/endeCount">암복호화 수 호출</a></li>
-                <li><a use:link href="/">내부&외부 제공건 수 호출</a></li>
-                <li><a use:link href="/">발송 예약 수 호출</a></li>
-                <li><a use:link href="/">발송 완료&예약 건수 호출</a></li>
-                <li><a use:link href="/">발송한 고객 건수 호출</a></li>
+                <li><a use:link href="/privacyCount">개인정보 항목 수 호출</a></li>
+                <li><a use:link href="/provisionCount">내부&외부 제공건 수 호출</a></li>
+                <li><a use:link href="/emailSendCount">이메일 발송 건수 호출</a></li>
+                <li><a use:link href="/emailUsePrice">이메일 발송 사용요금 호출</a></li>
                 <li><a use:link href="/">총 개인정보 수 호출</a></li>
                 <li><a use:link href="/">신규 가입 수 호출</a></li>
                 <li><a use:link href="/">금일 관리자 접속 수 호출</a></li>
-                <li><a use:link href="/">개인정보 항목 수 호출</a></li>
             </ul>
         </div>
         <div class="subNav">

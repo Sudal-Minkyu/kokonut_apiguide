@@ -1,15 +1,14 @@
 <script>
     import {endpoint, start, end} from "../../lib/store.js"
 </script>
-
 <div>
     <div class="apiContentBox">
         <div class="apicontTitleVer2">
-            <h1>암복호화 수 호출</h1>
+            <h1>이메일 발송 건수 호출</h1>
         </div>
         <div>
             <div class="apinorText marB20">
-                금일기준 0시부터 현재시간까지 암호화횟수와 복호화횟수를 가져오는 API
+                이메일 발송 완료 및 예약 건수를 가져오는 API
             </div>
         </div>
         <div class="pjdro_Box marB20">
@@ -26,7 +25,29 @@
                                         <p>메서드 : </p> <h4>GET</h4>
                                     </div>
                                     <div class="drcont">
-                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/endeCount</h4>
+                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/emailInfo</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="pjdro_Box marB20">
+            <ul class="pjandion-menu">
+                <li class="open_faq">
+                    <div class="pjdropName">
+                        <h2>요청 파라미터</h2>
+                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                    </div>
+                    <ul class="projItems nonePad">
+                        <li>
+                            <div class="open_proj_box">
+                                <div class="dropcont">
+                                    <div class="drcont">
+                                        <p>dateType</p><span>필수</span> <b>String : "1" : 오늘, "2" : 이번주, "3" : 이번달 / (디폴트값 : "1")</b>
                                     </div>
                                 </div>
                             </div>
@@ -44,7 +65,7 @@
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X GET \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \ </p><br/>
-                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/endeCount"</p>
+                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/provisionCount?dateType=1"</p>
                 </div>
             </div>
         </div>
@@ -58,8 +79,14 @@
                         <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
                         <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
                         <span class="jsonSpan_02">"sendData": {$start}</span><br>
-                            <span class="jsonSpan_03">"encount": 0</span><br>
-                            <span class="jsonSpan_03">"decount": 0</span><br>
+                            <span class="jsonSpan_03">"privacyItemCount": {$start}</span><br>
+                                <span class="jsonSpan_04">"fromDate": "yy. mm. dd"</span><br>
+                                <span class="jsonSpan_04">"toDate": "yy. mm. dd"</span><br>
+                                <span class="jsonSpan_04">"todayInsideCount": 0</span><br>
+                                <span class="jsonSpan_04">"todayOutsideCount": 0</span><br>
+                                <span class="jsonSpan_04">"offerInsideCount": 0</span><br>
+                                <span class="jsonSpan_04">"offerOutsideCount": 0</span><br>
+                            <span class="jsonSpan_03">{$end}</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>
                 </div>
@@ -76,14 +103,24 @@
                         <li>
                             <div class="open_proj_box">
                                 <div class="dropcont">
-
                                     <div class="drcont">
-                                        <p>encount</p><span>Integer</span> <b>암호화 건수</b>
+                                        <p>fromDate</p><span>String</span> <b>yy. mm. dd(시작 날짜)</b>
                                     </div>
                                     <div class="drcont">
-                                        <p>decount</p><span>Integer</span> <b>복호화 건수</b>
+                                        <p>toDate</p><span>String</span> <b>yy. mm. dd(끝 날짜)</b>
                                     </div>
-
+                                    <div class="drcont">
+                                        <p>todayInsideCount</p><span>Integer</span> <b>오늘 등록된 내부건수</b>
+                                    </div>
+                                    <div class="drcont">
+                                        <p>todayOutsideCount</p><span>Integer</span> <b>오늘 등록된 외부건수</b>
+                                    </div>
+                                    <div class="drcont">
+                                        <p>offerInsideCount</p><span>Integer</span> <b>기간 사이에 등록된 내부건수</b>
+                                    </div>
+                                    <div class="drcont">
+                                        <p>offerOutsideCount</p><span>Integer</span> <b>기간 사이에 등록된 외부건수</b>
+                                    </div>
                                 </div>
                             </div>
                         </li>
