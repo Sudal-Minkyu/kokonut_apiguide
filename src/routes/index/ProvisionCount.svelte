@@ -25,7 +25,7 @@
                                         <p>메서드 : </p> <h4>GET</h4>
                                     </div>
                                     <div class="drcont">
-                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/apiCount</h4>
+                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/provisionCount</h4>
                                     </div>
                                 </div>
                             </div>
@@ -104,10 +104,10 @@
                             <div class="open_proj_box">
                                 <div class="dropcont">
                                     <div class="drcont">
-                                        <p>fromDate</p><span>String</span> <b>yy. mm. dd(시작 날짜)</b>
+                                        <p>fromDate</p><span>String</span> <b>yy. mm. dd(시작 기간)</b>
                                     </div>
                                     <div class="drcont">
-                                        <p>toDate</p><span>String</span> <b>yy. mm. dd(끝 날짜)</b>
+                                        <p>toDate</p><span>String</span> <b>yy. mm. dd(끝 기간)</b>
                                     </div>
                                     <div class="drcont">
                                         <p>todayInsideCount</p><span>Integer</span> <b>오늘 등록된 내부건수</b>

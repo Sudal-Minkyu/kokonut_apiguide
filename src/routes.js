@@ -9,8 +9,7 @@ import ApiCount from "./routes/index/ApiCount.svelte"
 import EnCrypDecrypCount from "./routes/index/EnCrypDecrypCount.svelte"
 import ProvisionCount from "./routes/index/ProvisionCount.svelte"
 import PrivacyItemCount from "./routes/index/PrivacyItemCount.svelte"
-import EmailSendCount from "./routes/index/EmailSendCount.svelte"
-import EmailUsePrice from "./routes/index/EmailUsePrice.svelte"
+import EmailSendInfo from "./routes/index/EmailSendInfo.svelte"
 
 //
 import PersonallinfoSearch from "./routes/personallinfo/personallinfoSearch.svelte"
@@ -39,8 +38,7 @@ export default {
     "/endeCount": EnCrypDecrypCount,
     "/provisionCount": ProvisionCount,
     "/privacyCount": PrivacyItemCount,
-    "/emailSendCount": EmailSendCount,
-    "/emailUsePrice": EmailUsePrice,
+    "/emailSendInfo": EmailSendInfo,
 
 
 

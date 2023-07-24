@@ -108,8 +108,8 @@
                 <li><a use:link href="/endeCount">암복호화 수 호출</a></li>
                 <li><a use:link href="/privacyCount">개인정보 항목 수 호출</a></li>
                 <li><a use:link href="/provisionCount">내부&외부 제공건 수 호출</a></li>
-                <li><a use:link href="/emailSendCount">이메일 발송 건수 호출</a></li>
-                <li><a use:link href="/emailUsePrice">이메일 발송 사용요금 호출</a></li>
+                <li><a use:link href="/emailSendInfo">이메일 발송 현황정보 호출</a></li>
+                <li><a use:link href="/">--------------------------------</a></li>
                 <li><a use:link href="/">총 개인정보 수 호출</a></li>
                 <li><a use:link href="/">신규 가입 수 호출</a></li>
                 <li><a use:link href="/">금일 관리자 접속 수 호출</a></li>

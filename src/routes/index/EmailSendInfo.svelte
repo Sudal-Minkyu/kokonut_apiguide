@@ -4,11 +4,11 @@
 <div>
     <div class="apiContentBox">
         <div class="apicontTitleVer2">
-            <h1>이메일 발송 건수 호출</h1>
+            <h1>이메일 발송 현황정보 호출</h1>
         </div>
         <div>
             <div class="apinorText marB20">
-                이메일 발송 완료 및 예약 건수를 가져오는 API
+                이메일 발송 현황정보를 금일, 이번주, 이번달의 발송완료건수와 예약발성건수 그리고 청구금액과 수신자수를 가져오는 API 입니다.
             </div>
         </div>
         <div class="pjdro_Box marB20">
@@ -25,7 +25,7 @@
                                         <p>메서드 : </p> <h4>GET</h4>
                                     </div>
                                     <div class="drcont">
-                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/emailInfo</h4>
+                                        <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/emailSendInfo</h4>
                                     </div>
                                 </div>
                             </div>
@@ -65,7 +65,7 @@
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X GET \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \ </p><br/>
-                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/provisionCount?dateType=1"</p>
+                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/emailSendInfo?dateType=1"</p>
                 </div>
             </div>
         </div>
@@ -79,13 +79,11 @@
                         <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
                         <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
                         <span class="jsonSpan_02">"sendData": {$start}</span><br>
-                            <span class="jsonSpan_03">"privacyItemCount": {$start}</span><br>
-                                <span class="jsonSpan_04">"fromDate": "yy. mm. dd"</span><br>
-                                <span class="jsonSpan_04">"toDate": "yy. mm. dd"</span><br>
-                                <span class="jsonSpan_04">"todayInsideCount": 0</span><br>
-                                <span class="jsonSpan_04">"todayOutsideCount": 0</span><br>
-                                <span class="jsonSpan_04">"offerInsideCount": 0</span><br>
-                                <span class="jsonSpan_04">"offerOutsideCount": 0</span><br>
+                            <span class="jsonSpan_03">"emailSendInfoDto": {$start}</span><br>
+                                <span class="jsonSpan_04">"completeCount": 0</span><br>
+                                <span class="jsonSpan_04">"reservationCount": 0</span><br>
+                                <span class="jsonSpan_04">"receptionCount": 0</span><br>
+                                <span class="jsonSpan_04">"sendAmount": 0</span><br>
                             <span class="jsonSpan_03">{$end}</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>
@@ -104,22 +102,16 @@
                             <div class="open_proj_box">
                                 <div class="dropcont">
                                     <div class="drcont">
-                                        <p>fromDate</p><span>String</span> <b>yy. mm. dd(시작 날짜)</b>
+                                        <p>completeCount</p><span>Integer</span> <b>완료건수</b>
                                     </div>
                                     <div class="drcont">
-                                        <p>toDate</p><span>String</span> <b>yy. mm. dd(끝 날짜)</b>
+                                        <p>reservationCount</p><span>Integer</span> <b>예약건수</b>
                                     </div>
                                     <div class="drcont">
-                                        <p>todayInsideCount</p><span>Integer</span> <b>오늘 등록된 내부건수</b>
+                                        <p>receptionCount</p><span>Integer</span> <b>수신건수</b>
                                     </div>
                                     <div class="drcont">
-                                        <p>todayOutsideCount</p><span>Integer</span> <b>오늘 등록된 외부건수</b>
-                                    </div>
-                                    <div class="drcont">
-                                        <p>offerInsideCount</p><span>Integer</span> <b>기간 사이에 등록된 내부건수</b>
-                                    </div>
-                                    <div class="drcont">
-                                        <p>offerOutsideCount</p><span>Integer</span> <b>기간 사이에 등록된 외부건수</b>
+                                        <p>sendAmount</p><span>Integer</span> <b>청구금액</b>
                                     </div>
                                 </div>
                             </div>
