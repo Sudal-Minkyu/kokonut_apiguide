@@ -1,5 +1,5 @@
 <script>
-    import {endpoint, start, end, left, right} from "../../lib/store.js"
+    import {endpoint, start, end} from "../../lib/store.js"
 </script>
 <div>
     <div class="apiContentBox">
