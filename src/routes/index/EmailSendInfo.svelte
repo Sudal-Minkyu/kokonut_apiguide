@@ -47,7 +47,7 @@
                             <div class="open_proj_box">
                                 <div class="dropcont">
                                     <div class="drcont">
-                                        <p>dateType</p><span>필수</span> <b>String : "1" : 오늘, "2" : 이번주, "3" : 이번달 / (디폴트값 : "1")</b>
+                                        <p>dateType</p><span>선택</span> <b>String : "1" : 오늘, "2" : 이번주, "3" : 이번달 / (디폴트 : "1")</b>
                                     </div>
                                 </div>
                             </div>
@@ -63,9 +63,8 @@
             </div>
             <div class="codeNormalContent">
                 <div class="codeNormal">
-                    <p class="jsonP_default">curl -i -X GET \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \ </p><br/>
-                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/emailSendInfo?dateType=1"</p>
+                    <p class="jsonP_default">curl -i -X GET "https://kokonut.me/v3/api/Index/emailSendInfo?dateType=1" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key : ApiKey" </p><br/>
                 </div>
             </div>
         </div>
@@ -75,15 +74,15 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <span class="jsonSpan_01">{$start}</span><br>
-                        <span class="jsonSpan_02">"status": 200,</span><br>
-                        <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
-                        <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
-                        <span class="jsonSpan_02">"sendData": {$start}</span><br>
-                            <span class="jsonSpan_03">"emailSendInfoDto": {$start}</span><br>
-                                <span class="jsonSpan_04">"completeCount": 0</span><br>
-                                <span class="jsonSpan_04">"reservationCount": 0</span><br>
-                                <span class="jsonSpan_04">"receptionCount": 0</span><br>
-                                <span class="jsonSpan_04">"sendAmount": 0</span><br>
+                        <span class="jsonSpan_02">"status" : 200,</span><br>
+                        <span class="jsonSpan_02">"timestamp" : "현재시간",</span><br>
+                        <span class="jsonSpan_02">"message" : "SUCCESS",</span><br>
+                        <span class="jsonSpan_02">"sendData" : {$start}</span><br>
+                            <span class="jsonSpan_03">"emailSendInfoDto" : {$start}</span><br>
+                                <span class="jsonSpan_04">"completeCount" : 0</span><br>
+                                <span class="jsonSpan_04">"reservationCount" : 0</span><br>
+                                <span class="jsonSpan_04">"receptionCount" : 0</span><br>
+                                <span class="jsonSpan_04">"sendAmount" : 0</span><br>
                             <span class="jsonSpan_03">{$end}</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>

@@ -25,6 +25,9 @@ import Detailedinquiry from "./routes/DetailedInquiry.svelte"
 import Correction from "./routes/Correction.svelte"
 import Statusinquiry from "./routes/Statusinquiry.svelte"
 
+// 서트파티
+import BizmAlimTalkSend from "./routes/thirdparty/bizmAlimTalkSend.svelte"
+
 export default {
 
     "/": Index,
@@ -55,6 +58,8 @@ export default {
     "/correction": Correction,
 
     "/statusinquiry": Statusinquiry,
+
+    "/bizmAlimTalkSend": BizmAlimTalkSend,
 
     "*": wrap({
         asyncComponent: () => import("./components/NotFound.svelte"),

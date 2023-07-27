@@ -97,7 +97,7 @@
                 <li><a use:link href="/authLogin">로그인</a></li>
                 <li><a use:link href="/authRegister">회원가입</a></li>
 <!--                <li><a use:link href="/authRegisterItemList">회원가입 항목 가져오기</a></li>-->
-                <li><a use:link href="/findid">아이디찾기</a></li>
+<!--                <li><a use:link href="/findid">아이디찾기</a></li>-->
 <!--                <li><a use:link href="/findpw">비밀번호찾기</a></li>-->
             </ul>
         </div>
@@ -113,6 +113,12 @@
                 <li><a use:link href="/">총 개인정보 수 호출</a></li>
                 <li><a use:link href="/">신규 가입 수 호출</a></li>
                 <li><a use:link href="/">금일 관리자 접속 수 호출</a></li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li class="onedepth">서트파티 API</li>
+                <li><a use:link href="/bizmAlimTalkSend">비즈엠 알림톡 전송</a></li>
             </ul>
         </div>
         <div class="subNav">
