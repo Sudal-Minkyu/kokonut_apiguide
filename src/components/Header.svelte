@@ -96,8 +96,8 @@
                 <li class="onedepth">고객 API</li>
                 <li><a use:link href="/authLogin">로그인</a></li>
                 <li><a use:link href="/authRegister">회원가입</a></li>
-                <li><a use:link href="/">마이페이지 조회 및 변경</a></li>
-                <li><a use:link href="/">회원탈퇴</a></li>
+                <li><a use:link href="/develop">마이페이지 조회 및 변경(작업중)</a></li>
+                <li><a use:link href="/develop">회원탈퇴(작업중)</a></li>
             </ul>
         </div>
         <div class="subNav">
@@ -108,29 +108,29 @@
                 <li><a use:link href="/privacyCount">개인정보 항목 수 호출</a></li>
                 <li><a use:link href="/provisionCount">내부&외부 제공건 수 호출</a></li>
                 <li><a use:link href="/emailSendInfo">이메일 발송 현황정보 호출</a></li>
-                <li><a use:link href="/">--------------------------------</a></li>
-                <li><a use:link href="/">신규 가입 수 호출</a></li>
+<!--                <li><a use:link href="/">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</a></li>-->
+                <li><a use:link href="/develop">신규 가입 수 호출(작업중)</a></li>
             </ul>
         </div>
         <div class="subNav">
             <ul>
                 <li class="onedepth">개인정보 API</li>
-                <li><a use:link href="/">개인정보 수 호출(활성, 신규, 탈퇴, 금일접속자수)</a></li>
-                <li><a use:link href="/personallinfoSearch">개인정보 검색</a></li>
-                <li><a use:link href="/">개인정보 삭제</a></li>
+                <li><a use:link href="/develop">개인정보 수 호출(활성, 신규, 탈퇴, 금일접속자수)(작업중)</a></li>
+                <li><a use:link href="/develop">개인정보 검색(작업중)</a></li>
+                <li><a use:link href="/develop">개인정보 삭제(작업중)</a></li>
             </ul>
         </div>
         <div class="subNav">
             <ul>
                 <li class="onedepth">관리자현황 API</li>
-                <li><a use:link href="/">관리자 목록</a></li>
-                <li><a use:link href="/">금일 관리자 접속 수 호출</a></li>
+                <li><a use:link href="/develop">관리자 목록(작업중)</a></li>
+                <li><a use:link href="/develop">금일 관리자 접속 수 호출(작업중)</a></li>
             </ul>
         </div>
         <div class="subNav">
             <ul>
-                <li class="onedepth">이메일 발송</li>
-                <li><a use:link href="/">이메일 발송</a></li>
+                <li class="onedepth">이메일 발송(작업중)</li>
+                <li><a use:link href="/develop">이메일 발송(작업중)</a></li>
             </ul>
         </div>
         <div class="subNav">

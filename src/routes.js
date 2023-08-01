@@ -28,6 +28,9 @@ import Statusinquiry from "./routes/Statusinquiry.svelte"
 // 서트파티
 import BizmAlimTalkSend from "./routes/thirdparty/bizmAlimTalkSend.svelte"
 
+// 개발중인페이지
+import Develop from "./routes/intro/Develop.svelte";
+
 export default {
 
     "/": Index,
@@ -60,6 +63,8 @@ export default {
     "/statusinquiry": Statusinquiry,
 
     "/bizmAlimTalkSend": BizmAlimTalkSend,
+
+    "/develop" : Develop,
 
     "*": wrap({
         asyncComponent: () => import("./components/NotFound.svelte"),
