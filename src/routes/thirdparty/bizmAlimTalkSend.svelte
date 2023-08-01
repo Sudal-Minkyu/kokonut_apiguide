@@ -144,7 +144,7 @@
                     <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
                     <span class="jsonSpan_02">"templateCode" : "kokonut_code_02",</span><br>
                     <span class="jsonSpan_02">"sendType" : "SELECT",</span><br>
-                    <span class="jsonSpan_02">"kokonut_IDX_List" : ["KC4xzR9K5@LXM#yoUlzq"],</span><br>
+                    <span class="jsonSpan_02">"kokonut_IDX_List" : ["KC4xzR9K5@LXM#yoUlzq","T@aeHNfVOnQMDyMqCCh%"],</span><br>
                     <span class="jsonSpan_02">"codeList": {$start}</span><br>
                     <span class="jsonSpan_03">"고객명" : "1_31",</span><br>
                     <span class="jsonSpan_03">"금액" : "10000",</span><br>

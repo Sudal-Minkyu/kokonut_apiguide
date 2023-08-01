@@ -96,9 +96,8 @@
                 <li class="onedepth">고객 API</li>
                 <li><a use:link href="/authLogin">로그인</a></li>
                 <li><a use:link href="/authRegister">회원가입</a></li>
-<!--                <li><a use:link href="/authRegisterItemList">회원가입 항목 가져오기</a></li>-->
-<!--                <li><a use:link href="/findid">아이디찾기</a></li>-->
-<!--                <li><a use:link href="/findpw">비밀번호찾기</a></li>-->
+                <li><a use:link href="/">마이페이지 조회 및 변경</a></li>
+                <li><a use:link href="/">회원탈퇴</a></li>
             </ul>
         </div>
         <div class="subNav">
@@ -110,56 +109,34 @@
                 <li><a use:link href="/provisionCount">내부&외부 제공건 수 호출</a></li>
                 <li><a use:link href="/emailSendInfo">이메일 발송 현황정보 호출</a></li>
                 <li><a use:link href="/">--------------------------------</a></li>
-                <li><a use:link href="/">총 개인정보 수 호출</a></li>
                 <li><a use:link href="/">신규 가입 수 호출</a></li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li class="onedepth">개인정보 API</li>
+                <li><a use:link href="/">개인정보 수 호출(활성, 신규, 탈퇴, 금일접속자수)</a></li>
+                <li><a use:link href="/personallinfoSearch">개인정보 검색</a></li>
+                <li><a use:link href="/">개인정보 삭제</a></li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li class="onedepth">관리자현황 API</li>
+                <li><a use:link href="/">관리자 목록</a></li>
                 <li><a use:link href="/">금일 관리자 접속 수 호출</a></li>
+            </ul>
+        </div>
+        <div class="subNav">
+            <ul>
+                <li class="onedepth">이메일 발송</li>
+                <li><a use:link href="/">이메일 발송</a></li>
             </ul>
         </div>
         <div class="subNav">
             <ul>
                 <li class="onedepth">서트파티 API</li>
                 <li><a use:link href="/bizmAlimTalkSend">비즈엠 알림톡 전송</a></li>
-            </ul>
-        </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">개인정보현황 API</li>
-                <li><a use:link href="/">발송 예약 수 호출</a></li>
-                <li><a use:link href="/">발송 예약 수 호출</a></li>
-
-                <li><a use:link href="/personallinfoSearch">개인정보 검색</a></li>
-                <li><a use:link href="/personallinfoList">개인정보 처리이력</a></li>
-            </ul>
-        </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">관리자현황 API</li>
-                <li><a use:link href="/findid">관리자 목록</a></li>
-                <li><a use:link href="/changepassword">관리자 활동이력</a></li>
-            </ul>
-        </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">개인정보 제공</li>
-                <li><a use:link href="/findid">개인정보 제공 이력</a></li>
-            </ul>
-        </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">이메일 발송</li>
-                <li><a use:link href="/findid">이메일 발송이력</a></li>
-            </ul>
-        </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">이메일 발송</li>
-                <li><a use:link href="/findid">이메일 발송이력</a></li>
-            </ul>
-        </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">이메일 발송</li>
-                <li><a use:link href="/findid">이메일 발송이력</a></li>
             </ul>
         </div>
     </div>
