@@ -108,13 +108,13 @@
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/ThirdParty/alimTalkSend" \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
                     <span class="jsonSpan_01">-d '{$start}</span><br/>
-                    <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
-                    <span class="jsonSpan_02">"templateCode" : "kokonut_code_01",</span><br>
-                    <span class="jsonSpan_02">"sendType" : "ALL"</span><br>
-                    <span class="jsonSpan_02">"codeList": {$start}</span><br>
-                    <span class="jsonSpan_03">"회사명 : "코코넛",</span><br>
-                    <span class="jsonSpan_03">"문의전화" : "0507-1348-6533"</span><br>
-                    <span class="jsonSpan_02">{$end}</span><br>
+                        <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
+                        <span class="jsonSpan_02">"templateCode" : "kokonut_code_01",</span><br>
+                        <span class="jsonSpan_02">"sendType" : "ALL"</span><br>
+                        <span class="jsonSpan_02">"codeList": {$start}</span><br>
+                            <span class="jsonSpan_03">"회사명 : "코코넛",</span><br>
+                            <span class="jsonSpan_03">"문의전화" : "0507-1348-6533"</span><br>
+                        <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}'</span><br>
                 </div>
             </div>
@@ -140,16 +140,16 @@
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/ThirdParty/alimTalkSend" \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                    <span class="jsonSpan_01">-d '{$start}</span><br/>
-                    <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
-                    <span class="jsonSpan_02">"templateCode" : "kokonut_code_02",</span><br>
-                    <span class="jsonSpan_02">"sendType" : "SELECT",</span><br>
-                    <span class="jsonSpan_02">"kokonut_IDX_List" : ["KC4xzR9K5@LXM#yoUlzq","T@aeHNfVOnQMDyMqCCh%"],</span><br>
-                    <span class="jsonSpan_02">"codeList": {$start}</span><br>
-                    <span class="jsonSpan_03">"고객명" : "1_31",</span><br>
-                    <span class="jsonSpan_03">"금액" : "10000",</span><br>
-                    <span class="jsonSpan_03">"회사명" : "코코넛"</span><br>
-                    <span class="jsonSpan_02">{$end}</span><br>
+                        <span class="jsonSpan_01">-d '{$start}</span><br/>
+                        <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
+                        <span class="jsonSpan_02">"templateCode" : "kokonut_code_02",</span><br>
+                        <span class="jsonSpan_02">"sendType" : "SELECT",</span><br>
+                        <span class="jsonSpan_02">"kokonut_IDX_List" : ["KC4xzR9K5@LXM#yoUlzq","T@aeHNfVOnQMDyMqCCh%"],</span><br>
+                        <span class="jsonSpan_02">"codeList": {$start}</span><br>
+                            <span class="jsonSpan_03">"고객명" : "1_31",</span><br>
+                            <span class="jsonSpan_03">"금액" : "10000",</span><br>
+                            <span class="jsonSpan_03">"회사명" : "코코넛"</span><br>
+                        <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}'</span><br>
                 </div>
             </div>
@@ -248,11 +248,11 @@
                 <div class="codeNormal">
                     <p>
                         <span class="jsonSpan_01">{$start}</span><br>
-                        <span class="jsonSpan_02">"status": 500</span><br>
-                        <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
-                        <span class="jsonSpan_02">"message": "FAIL"</span><br>
-                        <span class="jsonSpan_02">"err_code": "ERROR_CODE_13_2"</span><br>
-                        <span class="jsonSpan_02">"err_msg": "'codeList'는 'Map' 형태로 보내주시길 바랍니다."</span><br>
+                            <span class="jsonSpan_02">"status": 500</span><br>
+                            <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
+                            <span class="jsonSpan_02">"message": "FAIL"</span><br>
+                            <span class="jsonSpan_02">"err_code": "ERROR_CODE_13_2"</span><br>
+                            <span class="jsonSpan_02">"err_msg": "'codeList'는 'Map' 형태로 보내주시길 바랍니다."</span><br>
                         <span class="jsonSpan_01">{$end}</span>
                     </p>
                 </div>
