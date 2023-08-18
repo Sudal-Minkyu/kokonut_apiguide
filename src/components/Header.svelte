@@ -94,8 +94,8 @@
         <div class="subNav">
             <ul>
                 <li class="onedepth">고객 API</li>
-                <li><a use:link href="/authLogin">로그인</a></li>
-                <li><a use:link href="/authRegister">회원가입</a></li>
+                <li><a use:link href="/authLogin">로그인(작업중)</a></li>
+                <li><a use:link href="/authRegister">회원가입(작업중)</a></li>
                 <li><a use:link href="/develop">마이페이지 조회 및 변경(작업중)</a></li>
                 <li><a use:link href="/develop">회원탈퇴(작업중)</a></li>
             </ul>
@@ -104,10 +104,10 @@
             <ul>
                 <li class="onedepth">홈 위젯 API</li>
                 <li><a use:link href="/apiCount">API 호출 수</a></li>
-                <li><a use:link href="/endeCount">암복호화 수 호출</a></li>
-                <li><a use:link href="/privacyCount">개인정보 항목 수 호출</a></li>
-                <li><a use:link href="/provisionCount">내부&외부 제공건 수 호출</a></li>
-                <li><a use:link href="/emailSendInfo">이메일 발송 현황정보 호출</a></li>
+                <li><a use:link href="/endeCount">암복호화 수</a></li>
+                <li><a use:link href="/privacyCount">개인정보 항목 수</a></li>
+                <li><a use:link href="/provisionCount">내부&외부 제공건 수</a></li>
+                <li><a use:link href="/emailSendInfo">이메일 발송 현황정보</a></li>
 <!--                <li><a use:link href="/">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</a></li>-->
                 <li><a use:link href="/develop">신규 가입 수 호출(작업중)</a></li>
             </ul>
