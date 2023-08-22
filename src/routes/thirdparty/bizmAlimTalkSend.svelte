@@ -110,9 +110,9 @@
                     <span class="jsonSpan_01">-d '{$start}</span><br/>
                         <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
                         <span class="jsonSpan_02">"templateCode" : "kokonut_code_01",</span><br>
-                        <span class="jsonSpan_02">"sendType" : "ALL"</span><br>
+                        <span class="jsonSpan_02">"sendType" : "ALL",</span><br>
                         <span class="jsonSpan_02">"codeList": {$start}</span><br>
-                            <span class="jsonSpan_03">"회사명 : "코코넛",</span><br>
+                            <span class="jsonSpan_03">"회사명" : "코코넛",</span><br>
                             <span class="jsonSpan_03">"문의전화" : "0507-1348-6533"</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}'</span><br>
