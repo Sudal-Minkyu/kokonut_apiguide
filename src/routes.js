@@ -23,7 +23,7 @@ import AuthRegister from "./routes/user/AuthRegister.svelte"
 import Dormancy from "./routes/Dormancy.svelte"
 import Detailedinquiry from "./routes/DetailedInquiry.svelte"
 import Correction from "./routes/Correction.svelte"
-import Statusinquiry from "./routes/Statusinquiry.svelte"
+import StatusInquiry from "./routes/StatusInquiry.svelte"
 
 // 서트파티
 import BizmAlimTalkSend from "./routes/thirdparty/bizmAlimTalkSend.svelte"
@@ -60,7 +60,7 @@ export default {
 
     "/correction": Correction,
 
-    "/statusinquiry": Statusinquiry,
+    "/statusinquiry": StatusInquiry,
 
     "/bizmAlimTalkSend": BizmAlimTalkSend,
 
