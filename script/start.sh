@@ -1,17 +1,8 @@
 #!/bin/bash
-sudo su -
 
-yum update -y
-
-# Change directory to the location of package.json file
-cd /root/kokonut_api_guide/
-
-# Remove node_modules folder
-rm -rf node_modules
-rm -rf package-lock.json
-
-# Install dependencies
-npm install
+# nvm 초기화 및 Node.js 버전 활성화
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # nvm 초기화
 
 PORT=8060
 echo "프로세스 종료용 포트조회 : $PORT"
@@ -26,6 +17,10 @@ else
     sleep 5
 fi
 
-nohup npm run dev
+cd /root/kokonut_api_guide
+
+pwd
+
+nohup npm run dev &
 
 exit
