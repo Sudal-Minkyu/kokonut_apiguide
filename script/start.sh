@@ -1,15 +1,24 @@
 #!/bin/bash
+sudo su -
 
+yum update -y
+
+# Change directory to the location of package.json file
 cd /root/kokonut_api_guide/
 
-# 프로세스 종료
+# Remove node_modules folder
+rm -rf node_modules
+rm -rf package-lock.json
+
+# Install dependencies
+npm install
+
 PID=$(pgrep -f npm)
 kill $PID
 
-# 10초간 대기합니다.
-sleep 10
+sleep 5
 
-# 새로운 프로세스를 시작합니다.
-nohup npm run dev -- --host 0.0.0.0 --port 8052 1>/root/kokonut_api_guide/logs/$(date +%Y-%m-%d)_stdout.log 2>/root/kokonut_api_guide/logs/$(date +%Y-%m-%d)_stderr.log &
+mkdir /root/kokonut_api_guide/logs
+nohup npm run dev 1>/root/kokonut_api_guide/logs/$(date +%Y-%m-%d)_stdout.log 2>/root/kokonut_api_guide/logs/$(date +%Y-%m-%d)_stderr.log &
 
 exit

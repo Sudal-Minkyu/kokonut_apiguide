@@ -10,10 +10,6 @@ permissions:
     group: root
 hooks:
   AfterInstall:
-    - location: script/install_dependencies.sh
-      timeout: 300
-      runas: root
-  ApplicationStart:
     - location: script/start.sh
       timeout: 300
       runas: root
