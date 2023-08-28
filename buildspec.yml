@@ -3,20 +3,25 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14   # 사용하고 싶은 Node.js 버전을 지정하세요.
-    commands:
-      - echo "Installing dependencies..."
-      - npm install
-  pre_build:
-    commands:
-      - echo "Running pre-build steps..."
-      # 이곳에 필요한 추가적인 명령어를 넣을 수 있습니다.
+      nodejs: 14
+#    commands:
+#      - echo node version check
+#      - node -v
+#      - npm -v
+
+#  pre_build:
+#    commands:
+#      - npm install
+
   build:
     commands:
-      - echo "Building the project..."
+      - echo Build Starting on `date`
       - npm run build
+      - pwd
+      - ls -al
 
 artifacts:
   files:
-    - '**/*'  # 빌드 결과물을 어디에 저장할지 지정하세요.
-  discard-paths: yes
+    - '**/*'
+#  discard-path: no
+#  base-directory: build
