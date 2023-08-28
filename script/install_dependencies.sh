@@ -16,5 +16,7 @@ rm -rf package-lock.json
 
 echo "인스톨시작"
 
+pwd
+
 # 변수를 사용하여 npm install 실행
 $NPM_PATH install

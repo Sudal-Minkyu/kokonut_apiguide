@@ -2,17 +2,17 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /root/kokonut_api_guide/
+    destination: /root/kokonut_frontend/
 permissions:
-  - object: /root/kokonut_api_guide/
+  - object: /root/kokonut_frontend/
     pattern: "**"
     owner: root
     group: root
 hooks:
-#  AfterInstall:
-#    - location: script/install_dependencies.sh
-#      timeout: 300
-#      runas: root
+  AfterInstall:
+    - location: script/install_dependencies.sh
+      timeout: 300
+      runas: root
   ApplicationStart:
     - location: script/start.sh
       timeout: 300

@@ -8,18 +8,20 @@ phases:
       - echo node version check
       - node -v
       - npm -v
-      
+
   pre_build:
     commands:
       - npm install
 
   build:
     commands:
-      - echo Build Starting on `date` 
+      - echo Build Starting on `date`
       - npm run build
-      - pwd 
+      - pwd
       - ls -al
 
 artifacts:
   files:
-     - '**/*'
+    - '**/*'
+#  discard-path: no
+#  base-directory: build
