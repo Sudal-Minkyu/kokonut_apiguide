@@ -51,7 +51,7 @@
                             <div class="open_proj_box">
                                 <div class="dropcont">
                                     <div class="drcont">
-                                        <p>jsonObject</p><span>필수</span><b>ex) {$start} "kokonutId" : "입력받은 아이디", "kokonutPw" : "입력받은 비밀번호" {$end}</b>
+                                        <p>jsonObject</p><span>필수</span><b>Json or Map : ex) {$start} "kokonutId" : "입력받은 아이디", "kokonutPw" : "입력받은 비밀번호" {$end}</b>
                                     </div>
                                 </div>
                             </div>
@@ -60,6 +60,7 @@
                 </li>
             </ul>
         </div>
+
         <div class="codeContentBox marB20">
             <div class="pjdropName">
                 <h2>요청 예시</h2>
@@ -75,6 +76,7 @@
                 </div>
             </div>
         </div>
+
         <div class="codeContentBox marB20">
             <div class="codeTitle"><h2 style="color: #00C389">응답 성공</h2>
             </div>

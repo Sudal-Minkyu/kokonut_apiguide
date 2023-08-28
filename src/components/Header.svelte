@@ -86,9 +86,6 @@
     <div class="navMenuInner">
 
         <div class="navSeaBox">
-<!--            <div class="navSea" id="document_search_pop">-->
-<!--                <div class="nsBox"><span>검색어를 입력해 주세요</span></div>-->
-<!--            </div>-->
             <a use:link href="/before" class="start">시작하기 전에</a>
         </div>
         <div class="subNav">
@@ -110,31 +107,29 @@
                 <li><a use:link href="/privacyCount">개인정보 항목 수</a></li>
                 <li><a use:link href="/provisionCount">내부&외부 제공건 수</a></li>
                 <li><a use:link href="/emailSendInfo">이메일 발송 현황정보</a></li>
-<!--                <li><a use:link href="/">&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;</a></li>-->
-                <li><a use:link href="/develop">신규 가입 수 호출(작업중)</a></li>
             </ul>
         </div>
         <div class="subNav">
             <ul>
                 <li class="onedepth">개인정보 API</li>
-                <li><a use:link href="/develop">개인정보 수 호출(활성, 신규, 탈퇴, 금일접속자수)(작업중)</a></li>
-                <li><a use:link href="/develop">개인정보 검색(작업중)</a></li>
-                <li><a use:link href="/develop">개인정보 삭제(작업중)</a></li>
+                <li><a use:link href="/personalCount">개인정보 수</a></li>
+                <li><a use:link href="/personalSearch">개인정보 검색</a></li>
+                <li><a use:link href="/personalDelete">개인정보 삭제</a></li>
             </ul>
         </div>
         <div class="subNav">
             <ul>
                 <li class="onedepth">관리자현황 API</li>
-                <li><a use:link href="/develop">관리자 목록(작업중)</a></li>
-                <li><a use:link href="/develop">금일 관리자 접속 수 호출(작업중)</a></li>
+                <li><a use:link href="/adminList">관리자 목록</a></li>
+                <li><a use:link href="/adminToday">금일 관리자 접속 수</a></li>
             </ul>
         </div>
-        <div class="subNav">
-            <ul>
-                <li class="onedepth">이메일 발송(작업중)</li>
-                <li><a use:link href="/develop">이메일 발송(작업중)</a></li>
-            </ul>
-        </div>
+<!--        <div class="subNav">-->
+<!--            <ul>-->
+<!--                <li class="onedepth">이메일 발송(작업중)</li>-->
+<!--                <li><a use:link href="/develop">이메일 발송(작업중)</a></li>-->
+<!--            </ul>-->
+<!--        </div>-->
         <div class="subNav">
             <ul>
                 <li class="onedepth">서트파티 API</li>

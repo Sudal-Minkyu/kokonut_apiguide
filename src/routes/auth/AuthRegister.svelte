@@ -7,7 +7,7 @@
             <h1>회원가입</h1>
         </div>
         <div>
-            <div class="apinorText marB20">개인정보 테이블에 회원정보 한개를 Insert 하는 API</div>
+            <div class="apinorText marB20">개인정보 테이블에 회원정보 한개를 저장하는 API</div>
             <div class="apinorText marB30">
                 <div class="cationBox"><dl>주의사항</dl></div>
                 안내문서를 참고하여 사용해 주세요.<br />
@@ -40,6 +40,27 @@
             </ul>
         </div>
 
+        <div class="pjdro_Box marB20">
+            <ul class="pjandion-menu">
+                <li class="open_faq">
+                    <div class="pjdropName">
+                        <h2>요청 파라메터</h2>
+                    </div>
+                    <ul class="projItems nonePad">
+                        <li>
+                            <div class="open_proj_box">
+                                <div class="dropcont">
+                                    <div class="drcont">
+                                        <p>jsonObject</p><span>필수</span><b>ex) {$start} "1_id" : "회원가입 아이디", "1_pw" : "회원가입 비밀번호" {$end}</b>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
         <div class="codeContentBox marB20">
             <div class="pjdropName">
                 <h2>요청 예시 1 - 아이디가 chunsik 인 회원의 가입 (개인정보 데이터 추가)</h2>
@@ -49,13 +70,11 @@
                     <p class="jsonP_default">curl -i -X POST "https://{$endpoint}/v3/api/Auth/register" \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
                     <span class="jsonSpan_01">-d '{$start}</span><br/>
-                    <span class="jsonSpan_02">"paramMap" : {$start}</span><br>
-                    <span class="jsonSpan_03">"1_id" : "chunsik",</span><br>
-                    <span class="jsonSpan_03">"1_pw" : "po01o2k!m",</span><br>
-                    <span class="jsonSpan_03">"1_1" : "01012345678",</span><br>
-                    <span class="jsonSpan_03">"1_12" : "서울 강남구 역삼로 165 해성빌딩",</span><br>
-                    <span class="jsonSpan_03">"1_13" : "9808012112345",</span><br>
-                    <span class="jsonSpan_02">{$end}</span><br>
+                    <span class="jsonSpan_02">"1_id" : "chunsik",</span><br>
+                    <span class="jsonSpan_02">"1_pw" : "po01o2k!m",</span><br>
+                    <span class="jsonSpan_02">"1_1" : "01012345678",</span><br>
+                    <span class="jsonSpan_02">"1_12" : "서울 강남구 역삼로 165 해성빌딩",</span><br>
+                    <span class="jsonSpan_02">"1_13" : "9808012112345",</span><br>
                     <span class="jsonSpan_01">{$end}'</span><br>
                 </div>
             </div>
@@ -70,12 +89,10 @@
                     <p class="jsonP_default">curl -i -X POST "https://{$endpoint}/v3/api/Auth/register" \</p><br/>
                     <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
                     <span class="jsonSpan_01">-d '{$start}</span><br/>
-                    <span class="jsonSpan_02">"paramMap" : {$start}</span><br>
-                    <span class="jsonSpan_03">"1_id" : "chunsik",</span><br>
-                    <span class="jsonSpan_03">"1_pw" : "po01o2k!m",</span><br>
-                    <span class="jsonSpan_03">"1_12" : "서울 강남구 역삼로 165 해성빌딩",</span><br>
-                    <span class="jsonSpan_03">"1_13" : "9808012112345",</span><br>
-                    <span class="jsonSpan_02">{$end}</span><br>
+                    <span class="jsonSpan_02">"1_id" : "chunsik",</span><br>
+                    <span class="jsonSpan_02">"1_pw" : "po01o2k!m",</span><br>
+                    <span class="jsonSpan_02">"1_12" : "서울 강남구 역삼로 165 해성빌딩",</span><br>
+                    <span class="jsonSpan_02">"1_13" : "9808012112345",</span><br>
                     <span class="jsonSpan_01">{$end}'</span><br>
                 </div>
             </div>
@@ -89,7 +106,7 @@
                         <span class="jsonSpan_02">"status" : 200,</span><br>
                         <span class="jsonSpan_02">"timestamp" : "현재시간",</span><br>
                         <span class="jsonSpan_02">"message" : "SUCCESS",</span><br>
-                        <span class="jsonSpan_02">"sendData" : {$start}</span><br>
+                        <span class="jsonSpan_02">"response" : {$start}</span><br>
                             <span class="jsonSpan_03">"kokonut_IDX" : "5Jm$N^bMG88TuSAvSdzT"</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>

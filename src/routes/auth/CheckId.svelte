@@ -101,27 +101,6 @@
             </div>
         </div>
 
-        <div class="pjdro_Box marB20">
-            <ul class="pjandion-menu">
-                <li class="open_faq">
-                    <div class="pjdropName">
-                        <h2>응답 데이터</h2>
-                    </div>
-                    <ul class="projItems nonePad">
-                        <li>
-                            <div class="open_proj_box">
-                                <div class="dropcont">
-                                    <div class="drcont">
-                                        <p>result</p><span>String</span> <b>완료 메세지</b>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-
         <div class="codeContentBox marB20">
             <div class="codeTitle">
                 <h2 style="color: #FF6752">응답 실패 : kokonutId 를 보내주지 않을 경우</h2>
