@@ -3,25 +3,28 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
+      nodejs: 14  # Node.js 버전을 명시합니다. 프로젝트에 맞게 조절해주세요.
     commands:
-      - echo node version check
-      - node -v
-      - npm -v
+      - echo Installing source NPM dependencies...
+      - npm install  # npm 패키지를 설치합니다.
 
   pre_build:
     commands:
-      - npm install
+      - echo Pre-build phase...
+      # pre_build 단계에서 수행할 커맨드를 여기에 추가합니다.
 
   build:
     commands:
-      - echo Build Starting on `date`
-      - npm run build
-      - pwd
-      - ls -al
+      - echo Build started on `date`
+      - npm run build  # Svelte 애플리케이션을 빌드합니다.
 
-artifacts:
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      # 빌드가 끝난 후 수행할 커맨드를 여기에 추가합니다.
+
+artifacts:  # 빌드 아티팩트 설정
   files:
-    - '**/*'
-#  discard-path: no
-#  base-directory: build
+    - '**/*'  # 빌드 결과물을 저장할 파일 또는 디렉토리를 지정합니다.
+  base-directory: 'public'  # 빌드 결과물이 있는 기본 디렉토리를 지정합니다. Svelte의 경우 일반적으로 'public'입니다.
+
