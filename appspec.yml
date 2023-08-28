@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /root/kokonut_frontend/
+    destination: /root/kokonut_api_guide/
 permissions:
-  - object: /root/kokonut_frontend/
+  - object: /root/kokonut_api_guide/
     pattern: "**"
     owner: root
     group: root
