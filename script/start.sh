@@ -19,8 +19,6 @@ fi
 
 cd /root/kokonut_api_guide
 
-pwd
-
 mkdir /root/kokonut_api_guide/logs
 
 nohup npm run dev -- --host 0.0.0.0 1>/root/kokonut_api_guide/logs/$(date +%Y-%m-%d)_stdout.log 2>/root/kokonut_api_guide/logs/$(date +%Y-%m-%d)_stderr.log &
