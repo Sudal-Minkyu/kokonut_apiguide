@@ -4,7 +4,7 @@
 <div>
     <div class="apiContentBox">
         <div class="apicontTitleVer2">
-            <h1>API 호출 수</h1>
+            <h1>마이페이지 조회</h1>
         </div>
         <div>
             <div class="apinorText marB20">
@@ -27,12 +27,6 @@
                                     <div class="drcont">
                                         <p>URL : </p> <h4>https://{$endpoint}/v3/api/Index/apiCount</h4>
                                     </div>
-<!--                                    <div class="drcont">-->
-<!--                                        <p>요청 파라미터</p><br/>-->
-<!--                                    </div>-->
-<!--                                    <div class="drcont">-->
-<!--                                        <p>type</p><span>선택</span> <b>String</b>-->
-<!--                                    </div>-->
                                 </div>
                             </div>
                         </li>
@@ -47,9 +41,8 @@
             </div>
             <div class="codeNormalContent">
                 <div class="codeNormal">
-                    <p class="jsonP_default">curl -i -X GET \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \ </p><br/>
-                    <p class="jsonP_default">"https://kokonut.me/v3/api/Index/apiCount"</p>
+                    <p class="jsonP_default">curl -i -X GET "https://kokonut.me/v3/api/Index/apiCount" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key : ApiKey" </p><br/>
                 </div>
             </div>
         </div>
@@ -59,12 +52,12 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <span class="jsonSpan_01">{$start}</span><br>
-                    <span class="jsonSpan_02">"status": 200,</span><br>
-                    <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
-                    <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
-                    <span class="jsonSpan_02">"response": {$start}</span><br>
-                    <span class="jsonSpan_03">"count": 0</span><br>
-                    <span class="jsonSpan_02">{$end}</span><br>
+                        <span class="jsonSpan_02">"status" : 200,</span><br>
+                        <span class="jsonSpan_02">"timestamp" : "현재시간",</span><br>
+                        <span class="jsonSpan_02">"message" : "SUCCESS",</span><br>
+                        <span class="jsonSpan_02">"response" : {$start}</span><br>
+                            <span class="jsonSpan_03">"count" : 0</span><br>
+                        <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>
                 </div>
             </div>

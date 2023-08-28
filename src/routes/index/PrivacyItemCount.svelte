@@ -57,7 +57,7 @@
                         <span class="jsonSpan_02">"status" : 200,</span><br>
                         <span class="jsonSpan_02">"timestamp" : "현재시간",</span><br>
                         <span class="jsonSpan_02">"message" : "SUCCESS",</span><br>
-                        <span class="jsonSpan_02">"sendData" : {$start}</span><br>
+                        <span class="jsonSpan_02">"response" : {$start}</span><br>
                                 <span class="jsonSpan_03">"privacyItemCount" : {$start}</span><br>
                                     <span class="jsonSpan_04">"totalAddCount" : 0</span><br>
                                     <span class="jsonSpan_04">"securityCount" : 0</span><br>

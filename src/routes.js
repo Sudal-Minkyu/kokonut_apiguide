@@ -4,6 +4,15 @@ import { wrap } from 'svelte-spa-router/wrap'
 import Index from "./routes/intro/Index.svelte"
 import BeforeStart from "./routes/intro/BeforeStart.svelte"
 
+// 고객 API 관련
+import AuthLogin from "./routes/auth/AuthLogin.svelte"
+import AuthRegister from "./routes/user/AuthRegister.svelte"
+import CheckId from "./routes/auth/CheckId.svelte"
+import MypageInfo from "./routes/auth/MypageInfo.svelte"
+import MypageUpdate from "./routes/auth/MypageUpdate.svelte"
+import Secession from "./routes/auth/Secession.svelte"
+
+
 // 홈위젯(인덱스)
 import ApiCount from "./routes/index/ApiCount.svelte"
 import EnCrypDecrypCount from "./routes/index/EnCrypDecrypCount.svelte"
@@ -18,8 +27,6 @@ import PersonallinfoList from "./routes/personallinfo/personallinfoList.svelte"
 //
 import FindId from "./routes/FindId.svelte"
 import ChangePassword from "./routes/ChangePassword.svelte"
-import AuthLogin from "./routes/user/AuthLogin.svelte"
-import AuthRegister from "./routes/user/AuthRegister.svelte"
 import Dormancy from "./routes/Dormancy.svelte"
 import Detailedinquiry from "./routes/DetailedInquiry.svelte"
 import Correction from "./routes/Correction.svelte"
@@ -38,7 +45,13 @@ export default {
 
     "/authLogin": AuthLogin,
     "/authRegister": AuthRegister,
-    "/findid": FindId,
+    "/checkId": CheckId,
+    "/mypageInfo": MypageInfo,
+    "/mypageUpdate": MypageUpdate,
+    "/secession": Secession,
+
+
+
 
     "/apiCount": ApiCount,
     "/endeCount": EnCrypDecrypCount,

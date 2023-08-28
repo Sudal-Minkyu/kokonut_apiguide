@@ -44,7 +44,7 @@
                 <div class="codeNormal">
                     <p>
                         {$start}<br>
-                        <span class="jsonSpan">"sendData": "",</span><br>
+                        <span class="jsonSpan">"response": "",</span><br>
                         <span class="jsonSpan">"id": "id",</span><br>
                         <span class="jsonSpan">"success": true</span><br>
                         {$end}
