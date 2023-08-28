@@ -95,8 +95,10 @@
             <ul>
                 <li class="onedepth">고객 API</li>
                 <li><a use:link href="/authLogin">로그인(작업중)</a></li>
+                <li><a use:link href="/develop">아이디 중복확인(작업중)</a></li>
                 <li><a use:link href="/authRegister">회원가입(작업중)</a></li>
-                <li><a use:link href="/develop">마이페이지 조회 및 변경(작업중)</a></li>
+                <li><a use:link href="/develop">마이페이지 조회(작업중)</a></li>
+                <li><a use:link href="/develop">마이페이지 수정(작업중)</a></li>
                 <li><a use:link href="/develop">회원탈퇴(작업중)</a></li>
             </ul>
         </div>
