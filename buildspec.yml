@@ -3,15 +3,15 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 14
-#    commands:
-#      - echo node version check
-#      - node -v
-#      - npm -v
+      nodejs: 12
+    commands:
+      - echo node version check
+      - node -v
+      - npm -v
 
-#  pre_build:
-#    commands:
-#      - npm install
+  pre_build:
+    commands:
+      - npm install
 
   build:
     commands:
@@ -23,5 +23,3 @@ phases:
 artifacts:
   files:
     - '**/*'
-#  discard-path: no
-#  base-directory: build
