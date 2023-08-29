@@ -109,7 +109,7 @@
                         <span class="jsonSpan_02">"timestamp" : "현재시간",</span><br>
                         <span class="jsonSpan_02">"message" : "SUCCESS",</span><br>
                         <span class="jsonSpan_02">"response" : {$start}</span><br>
-                            <span class="jsonSpan_03">"kokonut_IDX" : "5Jm$N^bMG88TuSAvSdzT"</span><br>
+                            <span class="jsonSpan_03">"kokonut_IDX" : "avfZ3hHNhUwiIDL7c6d3"</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>
                 </div>

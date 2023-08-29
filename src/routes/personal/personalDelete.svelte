@@ -54,7 +54,7 @@
                             <div class="open_proj_box">
                                 <div class="dropcont">
                                     <div class="drcont">
-                                        <p>kokonut_IDX</p><span>필수</span> <b>String ex) avfZ$hHNhUwiIDL#c6d#</b>
+                                        <p>kokonut_IDX</p><span>필수</span> <b>String ex) avfZ3hHNhUwiIDL7c6d3</b>
                                     </div>
                                 </div>
                             </div>
