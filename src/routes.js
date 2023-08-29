@@ -20,16 +20,16 @@ import PrivacyItemCount from "./routes/index/PrivacyItemCount.svelte"
 import EmailSendInfo from "./routes/index/EmailSendInfo.svelte"
 
 // 개인정보 API
-import PersonalSearch from "./routes/personal/personalSearch.svelte"
+import PersonalSearch from "./routes/personal/PersonalSearch.svelte"
 import PersonalCount from "./routes/personal/PersonalCount.svelte"
-import PersonalDelete from "./routes/personal/personalDelete.svelte"
+import PersonalDelete from "./routes/personal/PersonalDelete.svelte"
 
 // 관리자현황 API
 import AdminList from "./routes/admin/AdminList.svelte"
 import AdminToday from "./routes/admin/AdminToday.svelte"
 
 // 서트파티
-import BizmAlimTalkSend from "./routes/thirdparty/bizmAlimTalkSend.svelte"
+import BizmAlimTalkSend from "./routes/thirdparty/BizmAlimTalkSend.svelte"
 
 export default {
 
