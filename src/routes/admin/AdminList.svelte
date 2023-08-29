@@ -48,7 +48,7 @@
         </div>
 
         <div class="codeContentBox marB20">
-            <div class="codeTitle"><h2 style="color: #00C389">응답 성공</h2></div>
+            <div class="codeTitle"><h2 style="color: #00C389">응답 성공 1</h2></div>
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <span class="jsonSpan_01">{$start}</span><br>
@@ -78,6 +78,22 @@
                                 <span class="jsonSpan_04">"connectIp": "192.168.0.3"</span><br>
                             <span class="jsonSpan_03">{$end}]</span><br>
                         <span class="jsonSpan_02">{$end}</span><br>
+                    <span class="jsonSpan_01">{$end}</span><br>
+                </div>
+            </div>
+        </div>
+
+        <div class="codeContentBox marB20">
+            <div class="codeTitle"><h2 style="color: #00C389">응답 성공 2</h2></div>
+            <div class="codeNormalContent">
+                <div class="codeNormal">
+                    <span class="jsonSpan_01">{$start}</span><br>
+                    <span class="jsonSpan_02">"status": 200,</span><br>
+                    <span class="jsonSpan_02">"timestamp": "현재시간",</span><br>
+                    <span class="jsonSpan_02">"message": "SUCCESS",</span><br>
+                    <span class="jsonSpan_02">"response": {$start}</span><br>
+                    <span class="jsonSpan_03">"adminList": []</span><br>
+                    <span class="jsonSpan_02">{$end}</span><br>
                     <span class="jsonSpan_01">{$end}</span><br>
                 </div>
             </div>
