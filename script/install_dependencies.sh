@@ -9,6 +9,7 @@ NPM_PATH=$(which npm)
 
 sudo yum update -y
 
+# shellcheck disable=SC2164
 cd /root/kokonut_api_guide
 
 rm -rf node_modules

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# shellcheck disable=SC2164
 cd /root/kokonut_api_guide
 
 # nvm 초기화 및 Node.js 버전 활성화
