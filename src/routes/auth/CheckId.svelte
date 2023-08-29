@@ -64,7 +64,7 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X GET "https://kokonut.me/v3/api/Auth/checkId?kokonutId=입력받은아이디" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" </p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" </p><br/>
                 </div>
             </div>
         </div>

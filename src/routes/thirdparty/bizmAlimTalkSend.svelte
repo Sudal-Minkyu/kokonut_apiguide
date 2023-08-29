@@ -106,8 +106,9 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/ThirdParty/alimTalkSend" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                    <span class="jsonSpan_01">-d '{$start}</span><br/>
+                    <p class="jsonP_default">-H "Content-Type: application/json" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \</p><br/>
+                    <span class="jsonSpan_01">--data-raw '{$start}</span><br/>
                         <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
                         <span class="jsonSpan_02">"templateCode" : "kokonut_code_01",</span><br>
                         <span class="jsonSpan_02">"sendType" : "ALL",</span><br>
@@ -139,8 +140,9 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/ThirdParty/alimTalkSend" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                        <span class="jsonSpan_01">-d '{$start}</span><br/>
+                    <p class="jsonP_default">-H "Content-Type: application/json" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \</p><br/>
+                        <span class="jsonSpan_01">--data-raw '{$start}</span><br/>
                         <span class="jsonSpan_02">"profileKey" : "b930c71b0b66a4debdb4b0f3c4876e93cc0d8401",</span><br>
                         <span class="jsonSpan_02">"templateCode" : "kokonut_code_02",</span><br>
                         <span class="jsonSpan_02">"sendType" : "SELECT",</span><br>

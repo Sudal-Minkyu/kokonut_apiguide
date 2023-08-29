@@ -68,8 +68,9 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://{$endpoint}/v3/api/Auth/register" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                    <span class="jsonSpan_01">-d '{$start}</span><br/>
+                    <p class="jsonP_default">-H "Content-Type: application/json" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \</p><br/>
+                    <span class="jsonSpan_01">--data-raw '{$start}</span><br/>
                     <span class="jsonSpan_02">"1_id" : "chunsik",</span><br>
                     <span class="jsonSpan_02">"1_pw" : "po01o2k!m",</span><br>
                     <span class="jsonSpan_02">"1_1" : "01012345678",</span><br>
@@ -87,8 +88,9 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://{$endpoint}/v3/api/Auth/register" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                    <span class="jsonSpan_01">-d '{$start}</span><br/>
+                    <p class="jsonP_default">-H "Content-Type: application/json" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \</p><br/>
+                    <span class="jsonSpan_01">--data-raw '{$start}</span><br/>
                     <span class="jsonSpan_02">"1_id" : "chunsik",</span><br>
                     <span class="jsonSpan_02">"1_pw" : "po01o2k!m",</span><br>
                     <span class="jsonSpan_02">"1_12" : "서울 강남구 역삼로 165 해성빌딩",</span><br>

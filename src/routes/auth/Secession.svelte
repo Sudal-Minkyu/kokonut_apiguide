@@ -70,7 +70,7 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/Auth/secession?kokonut_IDX="avfZ$hHNhUwiIDL#c6d#" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" </p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" </p><br/>
                 </div>
             </div>
         </div>

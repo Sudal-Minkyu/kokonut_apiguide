@@ -68,8 +68,9 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/Auth/update" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                    <span class="jsonSpan_01">-d '{$start}</span><br/>
+                    <p class="jsonP_default">-H "Content-Type: application/json" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \</p><br/>
+                    <span class="jsonSpan_01">--data-raw '{$start}</span><br/>
                     <span class="jsonSpan_02">"kokonut_IDX" : "avfZ$hHNhUwiIDL#c6d#",</span><br>
                     <span class="jsonSpan_02">"updateList": {$start}</span><br>
                     <span class="jsonSpan_03">"1_1" : "수정 할 이름",</span><br>

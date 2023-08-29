@@ -52,7 +52,7 @@
                 <div class="codeNormalContent">
                     <div class="codeNormal" lang="ko">
                         <p class="jsonP_default">curl -i -X GET \</p><br/>
-                        <p class="jsonP_red">-H "x-api-key : ApiKey" \ </p><br/>
+                        <p class="jsonP_red">-H "x-api-key:ApiKey" \ </p><br/>
                         <p class="jsonP_default">"https://kokonut.me/v3/api/Example?param1=123&amp;param2=456"</p>
                     </div>
                 </div>

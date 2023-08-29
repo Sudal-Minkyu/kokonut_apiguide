@@ -68,8 +68,9 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X POST "https://kokonut.me/v3/api/Auth/login" \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \</p><br/>
-                    <span class="jsonSpan_01">-d '{$start}</span><br/>
+                    <p class="jsonP_default">-H "Content-Type: application/json" \</p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \</p><br/>
+                    <span class="jsonSpan_01">--data-raw '{$start}</span><br/>
                     <span class="jsonSpan_02">"kokonutId" : "입력받은 아이디",</span><br>
                     <span class="jsonSpan_02">"kokonutPw" : "입력받은 비밀번호"</span><br>
                     <span class="jsonSpan_01">{$end}'</span><br>

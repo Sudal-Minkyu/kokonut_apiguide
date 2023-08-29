@@ -48,7 +48,7 @@
             <div class="codeNormalContent">
                 <div class="codeNormal">
                     <p class="jsonP_default">curl -i -X GET \</p><br/>
-                    <p class="jsonP_default">-H "x-api-key : ApiKey" \ </p><br/>
+                    <p class="jsonP_default">-H "x-api-key:ApiKey" \ </p><br/>
                     <p class="jsonP_default">"https://kokonut.me/v3/api/Index/apiCount"</p>
                 </div>
             </div>
